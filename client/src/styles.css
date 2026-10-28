@@ -1,0 +1,23 @@
+:root {
+  --ink: #17313a;
+  --lagoon: #0f3d3e;
+  --brass: #b8893b;
+  --brass-dark: #98702a;
+  --linen: #f6f3ee;
+  --card: #ffffff;
+}
+body { font-family: "Instrument Sans", system-ui, sans-serif; background: var(--linen); color: var(--ink); }
+h1, h2, h3, .hp-brand { font-family: "Fraunces", Georgia, serif; font-weight: 600; }
+h3 { font-size: 1.2rem; }
+a { color: var(--lagoon); }
+.hp-nav { background: var(--lagoon); }
+.hp-nav a { color: #e9e4d8; text-decoration: none; }
+.hp-nav a:hover { color: #fff; }
+.hp-brand { font-size: 1.5rem; color: #fff !important; }
+.hp-hero { background: var(--lagoon); color: #f1ede3; border-radius: 12px; padding: 2rem; }
+.hp-hero label { color: #cfc9b9; }
+.hp-card { background: var(--card); border: 1px solid #e4ded1; border-radius: 10px; padding: 1.25rem; }
+.hp-card.narrow { max-width: 420px; }
+.btn-brass { background: var(--brass); color: #fff; border: 0; }
+.btn-brass:hover, .btn-brass:focus-visible { background: var(--brass-dark); color: #fff; }
+:focus-visible { outline: 3px solid var(--brass); outline-offset: 2px; }
